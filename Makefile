@@ -28,7 +28,6 @@ docker-rm:
 	-docker volume prune -f
 
 tf-init:
-	exit 0
 	$(MAKE) -C terraform init
 
 tf-apply:
